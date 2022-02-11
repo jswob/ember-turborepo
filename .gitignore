@@ -1,0 +1,25 @@
+
+.turbo
+syntax:glob
+node_modules
+.pytest_cache
+.mypy_cache
+/build-local.properties
+/bin
+/deploy
+/src/hydrant-app/.venv
+*.pyc
+*.pyo
+*~
+*.orig
+coverage
+.org
+.idea
+.settings
+.DS_Store
+run_migration*.log
+
+syntax: regexp
+\.project$
+\.classpath$
+
